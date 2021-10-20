@@ -1,0 +1,5 @@
+#!/bin/bash
+service httpd start
+source env/bin/activate
+sudo su
+python3 manage.py runserver
