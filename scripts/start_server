@@ -2,3 +2,4 @@
 service httpd start
 source env/bin/activate
 sudo su
+cd home/ec2-user/app

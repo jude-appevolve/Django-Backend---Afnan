@@ -1,5 +1,4 @@
 #!/bin/bash
-yum install -y httpd
 source env/bin/activate
 sudo su
 pip3 install -r /home/ec2-user/app/requirements.txt
