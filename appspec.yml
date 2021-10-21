@@ -8,11 +8,11 @@ hooks:
   AfterInstall: 
     - location: scripts/install_dependencies
       timeout: 6000
-      runas: root
+      runas: ubuntu
   ApplicationStart:
     - location: scripts/start_server
       timeout: 6000
-      runas: ec2-user
+      runas: ubuntu
 
   
 
