@@ -1,3 +1,6 @@
 #!/bin/bash
-sudo service apache2 start > /var/log/startapache.out 2>&1
 
+
+cd home/ubuntu/app
+source env/bin/activate
+python manage.py runserver 0.0.0.0:8000
