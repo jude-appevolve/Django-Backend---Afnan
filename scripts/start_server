@@ -1,5 +1,3 @@
 #!/bin/bash
-service httpd start
-source env/bin/activate
-sudo su
-cd home/ec2-user/app
+sudo service apache2 start > /var/log/startapache.out 2>&1
+

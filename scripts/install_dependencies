@@ -1,6 +1,5 @@
 #!/bin/bash
-source env/bin/activate
-sudo su
-pip3 install -r /home/ec2-user/app/requirements.txt
+sudo apt-get install apache2 -y > /var/log/installapache.out 2>&1
+
 
 
