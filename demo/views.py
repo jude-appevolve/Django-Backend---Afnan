@@ -7,4 +7,4 @@ def home(request):
 
 @api_view()
 def api(request):
-    return Response("sending data to react")
+    return Response("sending data to frontend")
